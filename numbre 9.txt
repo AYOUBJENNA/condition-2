@@ -1,0 +1,51 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main() {
+	int a,b,c;
+	printf("entre le valeur de a");
+	scanf("%d",&a);
+	printf("entre le valeur de b");
+	scanf("%d",&b);
+	printf("entre le valeur de c");
+	scanf("%d",&c);
+	printf(" Le temps %d.%d.%d\n",a,b,c);  
+	if(b== 1){
+		printf("%d.janvier.%d",a,c);
+	}
+	else if(b==2){
+		printf("%d.fevrier.%d",a,c);
+	}
+	else if(b==3){
+		printf("%d.mars.%d",a,c);
+	}
+	else if(b==4){
+		printf("%d.avril%d.",a,c);
+	}
+	else if(b==5){
+		printf("%d.mai.%d",a,c);
+	}
+	else if(b==6){
+		printf("%d.juin.%d",a,c);
+	}
+	else if(b==7){
+		printf(" %d .juillet .%d",a,c);
+	}
+	else if(b==8){
+		printf("%d .aout.%d",a,c);
+	}
+	else if(b==9){
+		printf("%d,septembr,%d",a,c);
+	}
+	else if(b==10){
+		printf("%d,octobre,%d",a,c);
+	}
+	else if(b==11){
+		printf("%d,novembre,%d",a,c);
+	}
+	else if(b==12){
+		printf("%d,decembre%d",a,c);
+	}
+	
+	return 0;
+}

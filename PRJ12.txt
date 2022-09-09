@@ -1,0 +1,31 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main() {
+	int x1,y1,x2,y2,a,b,x,y;
+	printf("entre le valeur de x1:");
+	scanf("%d",&x1);
+	
+	printf("entre le valeur de y1:");
+	scanf("%d",&y1);
+	
+	printf("entre le valeur de x2:");
+	scanf("%d",&x2);
+	printf("entre le valeur de y2:");
+	scanf("%d",&y2);
+	
+	printf("entre le valeur de x");
+	scanf("%d",&x);
+	printf("entre le valeur de y");
+	scanf("%d",&y);
+	a = ((y2-y1)/(x2-x1));
+	b = y1 - (a*x1);
+	if(y= a*x+b){
+		printf("se trouve dans la droit");
+	}
+	else 
+	printf("ne trouve pas");
+	
+	
+	return 0;
+}

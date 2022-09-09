@@ -1,0 +1,27 @@
+#include <stdio.h>
+#include <stdlib.h>
+int main() {
+	int d=rand()%7;
+	if(d==1){
+		printf("lundi");
+	}
+	else if(d==2){
+		printf("mardi");
+	}
+	else if(d==3){
+		printf("mercredi");
+	}
+	else if(d==4){
+		printf("jeudi");
+	}
+	else if(d==5){
+		printf("vendredi");
+	}
+	else if(d==6){
+		printf("samedi");
+	}
+	else if(d==7){
+		printf("dimanche");
+	}
+	return 0;
+}
