@@ -1,0 +1,19 @@
+#include <stdio.h>
+#include <stdlib.h>
+int main() {
+	int x,i,c=0;
+	printf("entre le valeur de x");
+	scanf("%d",&x);
+	for(i=2;i<x;i++){
+		if(x%i == 0){
+			printf("ne pas premier\n");break;
+		}else{
+			c++;
+		}
+	}
+	if(c!=0)	
+	printf("premier");
+	
+	
+	return 0;
+}
