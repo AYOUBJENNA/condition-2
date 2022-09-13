@@ -1,0 +1,27 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <math.h>
+int main() {
+	int x,y,p;
+		printf("entre le valeur de x");
+	    scanf("%d",&x);
+	while(x<=0){
+	printf("entre le valeur de x");
+	scanf("%d",&x);	
+		}
+	
+	printf("entre le valeur de y ");
+	scanf("%d",&y);
+	while(y<0){
+			printf("entre le valeur de y ");
+	scanf("%d",&y);
+	}
+	p=pow(x,y);
+	printf("%d",p);
+	
+	
+	
+	
+	
+	return 0;
+}
