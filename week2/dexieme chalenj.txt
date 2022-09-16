@@ -1,0 +1,25 @@
+
+
+
+
+
+#include <stdio.h>
+#include <stdlib.h>
+int a,b;
+void change(int a,int b){
+	a==b;
+	b==a;
+	printf("b==%d\n",a);
+	printf("a==%d\n",b);
+}
+
+int main() {
+	printf("entre le valeur de a");
+	scanf("%d",&a);
+	printf("entre le valeur de b");
+	scanf("%d",&b);
+	change(a,b);
+	
+	
+	return 0;
+}

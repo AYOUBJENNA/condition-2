@@ -1,0 +1,33 @@
+#include <stdio.h>
+#include <stdlib.h>
+int i,j,zone;
+void bulles(int t[]){
+	for(j=0;j<4;j++){
+	for(i=0;i<4-j;i++){
+		if(t[i]>t[i+1]){
+		zone = t[i];
+		t[i]=t[i+1];
+		t[i+1]=zone;
+			}}}
+}
+int main() {
+	int t[5];
+	int i;
+		for(i=0;i<5;i++){
+	printf("entre le valeur de t");
+	scanf("%d",&t[i]);	
+		}
+	printf("avant le tres");
+		for(i=0;i<5;i++){
+		printf("  %d  \t",t[i]);
+}
+    bulles(t);
+		printf("apres le tres");
+		for(i=0;i<5;i++){
+		printf("  %d  \t",t[i]);	
+}
+	
+	
+	
+	return 0;
+}

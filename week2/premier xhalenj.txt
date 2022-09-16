@@ -1,0 +1,17 @@
+#include <stdio.h>
+#include <stdlib.h>
+int a,b,s;
+ void somme(){
+ 	   s= a+b;
+ printf("%d",s);
+ }
+     
+
+int main() {
+	printf("entre le valeur de a");
+	scanf("%d",&a);
+	printf("entre le valeur de b");
+	scanf("%d",&b);
+	somme();
+	return 0;
+}

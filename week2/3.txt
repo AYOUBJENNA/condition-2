@@ -1,0 +1,22 @@
+#include <stdlib.h>
+#include <stdbool.h>
+bool is_premier(int nbr){
+	int i;
+	for(i=2;i<nbr;i++){
+		if(nbr%2==0) 
+		return false;
+	}
+	return true;
+}
+int main() {
+	int n,i;
+	printf("entre le valeur de n");
+	scanf("%d",&n);
+	for(i=1;i<=n;i++){	
+		if(is_premier(i)){
+			printf("%d ",i);
+		}
+	}
+	
+	return 0;
+}
